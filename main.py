@@ -40,11 +40,14 @@ def main():
 
     for item in data:
 
+        #A planilha tem abas antigas ocultas, como ela já foi disponibilizada assim,
+        #para não ter o retrabalho de reenvio, eu simplesmente ocultei as antigas.
         sheet = item["sheet"].strip().lower()
 
         if "25" in sheet:
             continue
 
+        # Existe na planilha da empresa, uma aba que contém as configurações de horas, sendo assim, ocultei da lista.
         if item["sheet"] == "Não Apagar":
             continue
 
