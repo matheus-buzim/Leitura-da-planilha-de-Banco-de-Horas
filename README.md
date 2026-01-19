@@ -6,9 +6,9 @@
 - Todas as planilhas são inseridas em uma pasta padrão chamada input
 - O script percorre cada arquivo presente nessa pasta
 - Para cada planilha, são extraídas as seguintes informações:
-- Nome do arquivo
-- Mês de referência
-- Total de horas
+  - Nome do arquivo
+  - Mês de referência
+  - Total de horas
 - Os dados são exibidos diretamente no terminal (CMD), facilitando a conferência e consolidação das informações
 
 🎯 Benefícios
